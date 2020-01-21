@@ -81,7 +81,7 @@ public class PortletViewController {
 		
 		List<Map<String,String>> viewRows = new ArrayList<Map<String,String>>();
 		for(Vacancy vacancy: vacancies){
-			String html =
+			String html =	//TODO !!! replace on StringBuilder
 			        "<div class=\"hh-vacancy\">" +
 			          "  <div class=\"hh-vacancy-row\">" +
 			          "    <div class=\"hh-vacancy-row-item hh-vacancy-name\">1</div>" +
@@ -96,7 +96,7 @@ public class PortletViewController {
 			          "</div>";
 			viewRows.add(Collections.singletonMap("row", 
 			  html
-			   .replace("1", vacancy.getName())
+			   .replace("1", vacancy.getName())		//TODO !!! apply StringBuilder without replace
 			   .replace("2", vacancy.getSalary())
 			   .replace("3", vacancy.getDepartmentName())
 			   .replace("4", vacancy.getPublishedAt())));
