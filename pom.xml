@@ -8,7 +8,7 @@
 	<name>hh-vacancies Portlet</name>
 	<version>1.0.0-SNAPSHOT</version>
 	<properties>
-    <spring.version>4.2.5.RELEASE</spring.version>
+    <spring.version>5.3.19</spring.version>
     <org.hibernate.version>5.1.17.Final</org.hibernate.version>
     <jackson.version>2.8.1</jackson.version>
     <liferay.version>6.2.5</liferay.version>
